@@ -1,8 +1,8 @@
 # Clipboard
-Adventure Game Studio (AGS) plugin for Windows clipboard copy/paste integration.
+Clipboard is a plugin for [Adventure Game Studio (AGS)](http://www.adventuregamestudio.co.uk/). It offers access to the Windows clipboard, to enable AGS developers to add cut/copy/paste functionality to their AGS game, allowing data to be transferred between the game and other applications. Currently, only plain text strings (ASCII/ANSI C) can be transferred to and from the clipboard.
 
 ## How To Use
-To use in an AGS game, you have to first add the plugin to the game project and activate it.
+To use the Clipboard plugin in an AGS project, you have to first add the plugin to AGS and activate it within the project. You then simply call the methods provided by the plugin from AGS script when you need to access the clipboard.
 
 ### How to Activate Plugin
 Place AgsClipboard.dll in the Adventure Game Studio engine folder, e.g. `C:\Program Files (x86)\Adventure Game Studio 3.4.1` (while IDE is not running). Start the IDE and load the game project. Under the "Plugins" entry in the project tree should now appear "AGS Clipboard Plugin vX.Y (agsclipboard.dll)". Right-click and check "Use this plugin". You can now use the plugin.
